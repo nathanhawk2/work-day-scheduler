@@ -1,4 +1,21 @@
-var today = moment();
-var currentDay = today.format('dddd, MMMM Do');
+// current time function at top of screen
+var currentTime = moment();
+var currentDay = currentTime.format('dddd, MMMM Do');
 $('#currentDay').text(currentDay);
-console.log(currentDay);
+
+//  save button 
+var saveBtn = document.querySelector('saveBtn');
+saveBtn.addEventListener('click', save);
+
+function save() {
+    localStorage.clear();
+    location.reload();
+}
+
+// clear button
+var clear = document.querySelector('clearBtn');
+clear.addEventListener('click', clearBtn)
+function clearBtn() { 
+    localStorage.clear();
+    location.reload();
+};
