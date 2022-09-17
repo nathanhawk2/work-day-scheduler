@@ -69,3 +69,21 @@ body {
     font-size: 20px;
     transition: all .3s ease-in-out;
   }
+
+  #clearBtn a:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
+  }
+
+  .now {
+    background-color: lightcoral;
+  }
+  .green {
+    background-color: green;
+  }
+  .gray {
+    background-color: gray;
+  }
+  .gray .green .now {
+    border-radius: 10px;
+  }
