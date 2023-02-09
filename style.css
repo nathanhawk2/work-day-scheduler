@@ -2,6 +2,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1;
+    margin-bottom: 10%;
   }
   
   textarea{
@@ -87,3 +88,5 @@ body {
   .gray .green .now {
     border-radius: 10px;
   }
+
+  
