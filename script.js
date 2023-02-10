@@ -7,10 +7,11 @@ let currentHour = moment().format("HH");
 //  save button 
 $('.saveBtn').click(function (event) {
     event.preventDefault();
+    type = "text/javascript"
     let value = $(this).siblings('.timeBlock').val();
-    console.log(value)
+    // console.log(value)
     let time = $(this).parent().attr('id');
-    console.log(time)
+    // console.log(time)
     localStorage.setItem(time, value);
   });
 
